@@ -1,4 +1,6 @@
 .flex-container {
+    height: 200px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column; /* row | row-reverse | column | column-reverse*/
+    flex-wrap: wrap; /* nowrap | wrap | wrap-reverse*/
 }
