@@ -5,14 +5,13 @@
     justify-content: flex-start; /* flex-start | flex-end | space-around | space-between*/
 }
 
+.flex-element {
+    order: 0; /* 0 | -n | n */
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+
 .element-1 {
-    order: 1;
+    
 }
 
-.element-2 {
-    order: 2;
-}
-
-.element-8 {
-    order: -1;
-}
